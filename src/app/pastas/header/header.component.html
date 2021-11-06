@@ -1,0 +1,73 @@
+<header>
+  <div class="container_grid position">
+    <a href="index.html"
+      ><img
+        class="logo"
+        src="imagens/Logo.svg"
+        alt="Logo do site Game Mania"
+        width="307"
+        height="144"
+    /></a>
+    <form id="searchbar">
+      <input
+        type="text"
+        id="searchbar_text"
+        placeholder="O que você procura?"
+      />
+      <img
+        class="search"
+        src="imagens/icon_pesquisar.svg"
+        alt="Buscar"
+        width="40"
+        height="40"
+      />
+    </form>
+    <div>
+      <a href="#"
+        ><img
+          class="cart"
+          src="imagens/icon_cart.svg"
+          alt="Carrinho"
+          width="64"
+          height="64"
+      /></a>
+      <p class="icon_text_header" href="#">Carrinho</p>
+    </div>
+    <div>
+      <a href="#"
+        ><img
+          class="login"
+          src="imagens/icon_login.svg"
+          alt="Login"
+          width="64"
+          height="64"
+      /></a>
+      <p class="icon_text_header">Login</p>
+    </div>
+    <!-- Teste com Menu Jquery 
+            <div><a href="#" id="barras"
+              ><img
+                class="menu_bar"
+                src="imagens/icon_menu.svg"
+                alt="Menu de Barras"
+            /></a>
+          </div> -->
+    <div>
+      <a href="#" onclick="mostrarMenu()"
+        ><img class="menu_bar" src="imagens/icon_menu.svg" alt="Menu de Barras"
+      /></a>
+    </div>
+  </div>
+
+  <!-- Barra de Menus -->
+  <div class="menu_background">
+    <nav id="menu" class="menu container_grid position_menu">
+      <a routerLink="">Home</a>
+      <a href="#">Departamentos</a>
+      <a routerLink="monteSeuPc">Monte seu PC</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="sobre.html">Sobre</a>
+      <a routerLink="contato">contato</a>
+    </nav>
+  </div>
+</header>

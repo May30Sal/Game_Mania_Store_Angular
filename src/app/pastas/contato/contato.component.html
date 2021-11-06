@@ -1,0 +1,24 @@
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<p>teste</p>
+<form #userForm="ngForm" (ngSubmit)="onSubmit()">
+  <!-- É preciso dar um nome para o Form. Tem #, mas não é id. É preciso
+  também uma diretiva para o submit -->
+  <label for="email">E-mail: </label>
+  <input type="email" id="email" name="email" [(ngModel)]="userModel.email" />
+
+  <label for="senha">Senha: </label>
+  <input
+    type="password"
+    id="senha"
+    name="senha"
+    [(ngModel)]="userModel.senha"
+  />
+
+  <button type="submit">Enviar</button>
+</form>
