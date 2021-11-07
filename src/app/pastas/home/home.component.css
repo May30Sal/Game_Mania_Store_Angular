@@ -18,87 +18,16 @@
   align-items: center;
 }
 
-/* Topo */
-
-header {
-  background-color: #00f800;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-}
-
-#searchbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #ffffff;
-  border: solid 1px;
-  border-radius: 30px;
-  width: 492px;
-  height: 65px;
-}
-
-#searchbar_text {
-  padding-left: 5px;
-  font: 500 30px "Montserrat", sans-serif;
-  border: none;
-  height: 36px;
-  text-align: center;
-}
-
-.icon_text_header {
-  font: 500 18px "Montserrat", sans-serif;
-  text-align: center;
-}
-
-/* Barra de Menu */
-
-.container_grid_menu {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.position_menu {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu_bar {
-  display: none;
-}
-
-.menu_background {
-  background-color: #0b0b0c;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #ffffff;
-  font: 500 1.75rem "Montserrat", sans-serif;
-  padding: 20px;
-}
-
-.menu a:hover {
-  background-color: #00f800;
-  color: #000000;
-}
-
 /* Banner */
 
-#banner {
-  /* background-image: url(../imagens/ImgBanner.png); */
+/* #banner {
+  background-image: url(<"./assets/ImgBanner.png");
   height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 #banner_text {
   display: flex;
@@ -241,103 +170,4 @@ h2 {
 
 .media-body-2 {
   padding: 20px 0 30px 15px;
-}
-
-/* Seção Newsletter */
-
-.newsletter_background {
-  background-color: #00f800;
-  height: 100%;
-}
-
-.news_text {
-  color: #000000;
-  font: bold 1.75rem "Montserrat", sans-serif;
-  text-align: center;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-.newsletter_box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-}
-
-#email_newsletter {
-  background-color: #d0d1d1;
-  height: 68px;
-  width: 70%;
-  font: 500 1.6rem "Montserrat", sans-serif;
-  text-align: center;
-  border-radius: 5px;
-}
-
-/* Rodapé */
-
-.footer_gray_background {
-  background-color: #d0d1d1;
-  height: 100%;
-  padding: 10px;
-}
-
-footer h3 {
-  color: #000000;
-  font: bold 1.75rem "Montserrat", sans-serif;
-  text-align: center;
-  padding: 15px;
-}
-
-.footer_menu {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 15px;
-}
-
-footer nav a {
-  text-decoration: none;
-  color: #000000;
-  font: 500 1.6rem "Montserrat", sans-serif;
-  padding: 5px;
-}
-
-.footer_menu a:hover {
-  color: #00f800;
-  background-color: #0b0b0c;
-}
-
-.footer_atendimento {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-}
-
-.atendimento_text {
-  color: #000000;
-  font: 500 1.6rem "Montserrat", sans-serif;
-  text-align: center;
-  padding: 15px;
-}
-
-.footer_icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.footer_black_background {
-  background-color: #0b0b0c;
-}
-
-.footer_text {
-  font: 500 1.6rem "Montserrat", sans-serif;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
 }

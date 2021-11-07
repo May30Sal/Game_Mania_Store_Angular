@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/models/user';
 
 @Component({
-  selector: 'app-contato',
-  templateUrl: './contato.component.html',
-  styleUrls: ['./contato.component.css'],
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css'],
 })
-export class ContatoComponent implements OnInit {
+export class FooterComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
