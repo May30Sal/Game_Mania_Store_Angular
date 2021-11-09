@@ -1,21 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container_grid {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.position {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* Seção Newsletter */
 
 .newsletter_background {
@@ -48,7 +30,6 @@
 }
 
 /* Rodapé */
-
 .footer_gray_background {
   background-color: #d0d1d1;
   height: 100%;
@@ -116,7 +97,6 @@ footer nav a {
 }
 
 @media screen and (max-width: 1200px) {
-  /*Newsletter*/
   .news_text {
     font: bold 1.3rem "Montserrat", sans-serif;
   }
@@ -140,7 +120,17 @@ footer nav a {
 }
 
 @media screen and (max-width: 768px) {
-  /*Newsletter*/
+  .news_text {
+    font-size: 1.5rem;
+    padding: 30px;
+  }
+
+  #email_newsletter {
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+  }
+
   .newsletter,
   .local,
   .facebook,

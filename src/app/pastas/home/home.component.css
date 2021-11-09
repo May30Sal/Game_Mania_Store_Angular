@@ -20,14 +20,14 @@
 
 /* Banner */
 
-/* #banner {
-  background-image: url(<"./assets/ImgBanner.png");
+.banner {
+  background-image: url(../../../assets/imagens/ImgBanner.png);
   height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
+}
 
 #banner_text {
   display: flex;
@@ -67,11 +67,6 @@
   background-color: #181d24;
   height: 100%;
 }
-
-/* .ofertas {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 h2 {
   color: #ffffff;
@@ -134,9 +129,6 @@ h2 {
   display: flex;
   justify-content: center;
   padding: 30px;
-}
-.owl-dots {
-  display: none;
 }
 
 /* Seção Recomendados */

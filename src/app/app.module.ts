@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,8 +16,24 @@ import { SobreComponent } from './pastas/sobre/sobre.component';
 import { FooterComponent } from './pastas/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContatoComponent, MonteSeuPcComponent, HeaderComponent, GaleriaComponent, SobreComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ContatoComponent,
+    MonteSeuPcComponent,
+    HeaderComponent,
+    GaleriaComponent,
+    SobreComponent,
+    FooterComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot(),
+    CarouselModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

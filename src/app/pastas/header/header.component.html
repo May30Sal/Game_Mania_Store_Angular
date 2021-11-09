@@ -33,6 +33,43 @@
       /></a>
       <p class="icon_text_header" href="#">Carrinho</p>
     </div>
+
+    <!-- Barra de Menus Responsivo -->
+    <div class="btn-group" dropdown>
+      <button
+        id="button-basic"
+        dropdownToggle
+        type="button"
+        class="btn dropdown-toggle"
+        aria-controls="dropdown-basic"
+      >
+        Menu<span class="caret"></span>
+      </button>
+      <ul
+        id="dropdown-basic"
+        *dropdownMenu
+        class="dropdown-menu"
+        role="menu"
+        aria-labelledby="button-basic"
+      >
+        <li role="menuitem"><a class="dropdown-item" routerLink="">Home</a></li>
+        <li role="menuitem">
+          <a class="dropdown-item" href="#">Departamentos</a>
+        </li>
+        <li role="menuitem">
+          <a class="dropdown-item" href="monteSeuPc">Monte seu Pc</a>
+        </li>
+        <li role="menuitem">
+          <a class="dropdown-item" href="galeria">Galeria</a>
+        </li>
+        <li role="menuitem">
+          <a class="dropdown-item" href="sobre">Sobre</a>
+        </li>
+        <li role="menuitem">
+          <a class="dropdown-item" href="contato">Contato</a>
+        </li>
+      </ul>
+    </div>
     <div>
       <a href="#"
         ><img
@@ -44,22 +81,6 @@
       /></a>
       <p class="icon_text_header">Login</p>
     </div>
-    <!-- Teste com Menu Jquery 
-            <div><a href="#" id="barras"
-              ><img
-                class="menu_bar"
-                src="imagens/icon_menu.svg"
-                alt="Menu de Barras"
-            /></a>
-          </div> -->
-    <div>
-      <a href="#"
-        ><img
-          class="menu_bar"
-          src="./assets/imagens/icon_menu.svg"
-          alt="Menu de Barras"
-      /></a>
-    </div>
   </div>
 
   <!-- Barra de Menus -->
@@ -70,7 +91,7 @@
       <a routerLink="monteSeuPc">Monte seu PC</a>
       <a routerLink="galeria">Galeria</a>
       <a routerLink="sobre">Sobre</a>
-      <a routerLink="contato">contato</a>
+      <a routerLink="contato">Contato</a>
     </nav>
   </div>
 </header>
