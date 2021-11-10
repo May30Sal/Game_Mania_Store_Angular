@@ -15,6 +15,7 @@
         alt="Ícone Atendimento Personalizado"
         width="120"
         height="100"
+        style="color: white"
       />
       <p class="icon_text_section">Atendimento personalizado e compra segura</p>
     </div>
@@ -22,6 +23,7 @@
       src="./assets/imagens/Line 2.png"
       alt="Imagen de linha divisória"
       height="80"
+      style="color: white"
     />
     <div class="icons">
       <img
@@ -30,6 +32,7 @@
         alt="Ícone Garantia de Qualidade"
         width="100"
         height="104"
+        style="color: white"
       />
       <p class="icon_text_section">
         Garantia de qualidade e satisfação total do cliente
@@ -39,6 +42,7 @@
       src="./assets/imagens/Line 2.png"
       alt="Imagem de linha divisória"
       height="80"
+      style="color: white"
     />
     <div class="icons">
       <img
@@ -47,6 +51,7 @@
         alt="Ícone Entrega Rápida"
         width="120"
         height="100"
+        style="color: white"
       />
       <p class="icon_text_section">
         Entrega rápida e facilitada para todo o Brasil
@@ -67,6 +72,7 @@
               src="./assets/imagens/oferta01.jpg"
               alt="Combo Plastation Vr"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body">
@@ -82,6 +88,7 @@
               src="./assets/imagens/oferta02.jpg"
               alt="Notebook Asus"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body">
@@ -99,6 +106,7 @@
               src="./assets/imagens/oferta03.jpg"
               alt="Headset Gamer"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body">
@@ -114,6 +122,7 @@
               src="./assets/imagens/oferta04.jpg"
               alt="Cadeira Gamer"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body">
@@ -131,6 +140,7 @@
               src="./assets/imagens/oferta05.jpg"
               alt="Jogo FIFA 21"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body">
@@ -143,131 +153,73 @@
   </div>
 </section>
 
-<!-- <ng-template carouselSlide>
-              <a href="#">
-                <img
-                  src="./assets/imagens/oferta01.jpg"
-                  alt="Combo Plastation Vr"
-                  class="img-fluid"
-                />
-              </a>
-            </ng-template>
-            <ng-template carouselSlide>Slide 3</ng-template>
-          </owl-carousel-o> -->
-
-<!-- <div class="media media-custom d-block">
-          <a href="#">
-            <img
-              src="./assets/imagens/oferta02.jpg"
-              alt="Notebook Asus"
-              class="img-fluid"
-            />
-          </a>
-          <div class="media-body">
-            <p class="ofertas_text">
-              Notebook Asus <strong>R$ 3.000,00</strong>
-            </p>
-            <a href="#" class="btn_buy">Comprar</a>
-          </div>
-        </div>
-        <div class="media media-custom d-block">
-          <a href="#">
-            <img
-              src="./assets/imagens/oferta03.jpg"
-              alt="Headset Gamer"
-              class="img-fluid"
-            />
-          </a>
-          <div class="media-body">
-            <p class="ofertas_text">Headset Gamer <strong>R$ 99,90</strong></p>
-            <a href="#" class="btn_buy">Comprar</a>
-          </div>
-        </div>
-        <div class="media media-custom d-block">
-          <a href="#">
-            <img
-              src="./assets/imagens/oferta04.jpg"
-              alt="Cadeira Gamer"
-              class="img-fluid"
-            />
-          </a>
-          <div class="media-body">
-            <p class="ofertas_text">
-              Cadeira Gamer <strong>R$ 1.590,90</strong>
-            </p>
-            <a href="#" class="btn_buy">Comprar</a>
-          </div>
-        </div>
-        <div class="media media-custom d-block">
-          <a href="#">
-            <img
-              src="./assets/imagens/oferta05.jpg"
-              alt="Jogo FIFA 21"
-              class="img-fluid"
-            />
-          </a>
-          <div class="media-body">
-            <p class="ofertas_text">Jogo FIFA 21 <strong>R$ 250,00</strong></p>
-            <a href="#" class="btn_buy">Comprar</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
 <!-- Seção de Produtos Recomendados -->
 <section class="products_background">
-  <div class="container">
+  <div class="container_grid">
     <h2>Recomendados</h2>
-    <div class="row">
-      <div class="major-carousel js-carousel-2 owl-carousel">
-        <div class="media media-custom-2 d-block text-left">
+    <owl-carousel-o [options]="customOptions2">
+      <ng-template carouselSlide>
+        <div class="media-custom-2">
           <a href="#">
             <img
               src="./assets/imagens/recomendado01.jpg"
               alt="Imagem de uma mão segurando um Smartphone"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body-2">
             <a href="#" class="recomend_text">Os melhores smatphones</a>
           </div>
         </div>
-        <div class="media media-custom-2 d-block text-left">
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="media-custom-2">
           <a href="#">
             <img
               src="./assets/imagens/recomendado02.jpg"
               alt="Imagem de mesa de escritório com notebook, desktop e tablet"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body-2">
             <a href="#" class="recomend_text">Tudo para seu home office</a>
           </div>
         </div>
-        <div class="media media-custom-2 d-block text-left">
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="media-custom-2">
           <a href="#">
             <img
               src="./assets/imagens/recomendado03.png"
               alt="Imagem de mesa com duas telas de computador e uma cadeira gamer"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body-2">
             <a href="#" class="recomend_text">Monte seu PC Gamer</a>
           </div>
         </div>
-        <div class="media media-custom-2 d-block text-left">
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="media-custom-2">
           <a href="#">
             <img
               src="./assets/imagens/recomendado04.png"
               alt="Imagem de crianças jogando videogame"
               class="img-fluid"
+              style="color: white"
             />
           </a>
           <div class="media-body-2">
             <a href="#" class="recomend_text">As últimas novidades em games</a>
           </div>
         </div>
-      </div>
-    </div>
+      </ng-template>
+    </owl-carousel-o>
+    <br />
+    <br />
   </div>
 </section>

@@ -136,7 +136,7 @@ h2 {
 .recomend_text {
   color: #ffffff;
   font: 500 1.75rem "Montserrat", sans-serif;
-  /* padding: 15px; */
+  padding: 15px 0px;
 }
 
 /*Recomendados Carousel*/
@@ -162,4 +162,71 @@ h2 {
 
 .media-body-2 {
   padding: 20px 0 30px 15px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1200px) {
+  /* Banner  */
+  #banner_text {
+    height: 350px;
+    font-size: 3rem;
+  }
+
+  /*Barra de Ícones*/
+  .icons_background {
+    height: 120px;
+  }
+
+  .icon_text_section {
+    font: 500 1rem "Montserrat", sans-serif;
+  }
+
+  .atendimento,
+  .qualidade,
+  .entrega,
+  /*Newsletter e Rodapé*/
+  .newsletter,
+  .local,
+  .facebook,
+  .instagram,
+  .twitter {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Banner  */
+  #banner_text {
+    height: 210px;
+    font-size: 2rem;
+  }
+
+  /*Section Produtos Recomendados*/
+
+  .js-carousel-2 {
+    padding-bottom: 30px;
+  }
+
+  /*Barra de Ícones*/
+  .icons_background {
+    display: none;
+  }
+
+  /* Section Ofertas e Produtos Recomendados */
+  h2 {
+    font-size: 1.8rem;
+    padding: 40px 0px;
+  }
+
+  .ofertas_text,
+  .recomend_text {
+    font-size: 1.5rem;
+  }
+
+  .btn_buy {
+    font-size: 1.5rem;
+    width: 180px;
+  }
 }
