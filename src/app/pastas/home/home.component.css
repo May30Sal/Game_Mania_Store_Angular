@@ -164,6 +164,34 @@ h2 {
   padding: 20px 0 30px 15px;
 }
 
+/*Seção Notícias*/
+
+.noticias {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+
+.card h3 {
+  color: #000000;
+  font: 700 1.75rem "Montserrat", sans-serif;
+  padding: 15px;
+  text-align: center;
+}
+.card p {
+  color: #000000;
+  font: 500 1.3rem "Montserrat", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: #d0d1d1;
+  padding: 10px;
+  margin-left: 10px;
+}
+
 /* Responsividade */
 
 @media screen and (max-width: 1200px) {
@@ -193,6 +221,15 @@ h2 {
   .twitter {
     height: 40px;
     width: 40px;
+  }
+
+  /*Seção Notícias*/
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1.1rem;
   }
 }
 
@@ -228,5 +265,14 @@ h2 {
   .btn_buy {
     font-size: 1.5rem;
     width: 180px;
+  }
+
+  /*Seção Notícias*/
+  .card h3 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 1rem;
   }
 }

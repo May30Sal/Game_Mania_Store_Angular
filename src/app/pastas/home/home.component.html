@@ -223,3 +223,58 @@
     <br />
   </div>
 </section>
+
+<!-- Seção de Notícias -->
+<section class="products_background">
+  <div class="container_grid">
+    <h2>Notícias do mundo gamer</h2>
+    <div class="noticias">
+      <div *ngFor="let noticia of listaNoticias" class="card">
+        <img
+          src="./assets/imagens/oferta01.jpg"
+          alt="img-galeria"
+          style="color: white"
+        />
+        <h3>{{ noticia.titulo }}</h3>
+        <p>{{ noticia.descricao }}</p>
+      </div>
+
+      <!-- <div class="card">
+        <img
+          src="./assets/imagens/oferta01.jpg"
+          alt="img-galeria"
+          style="color: white"
+        />
+        <h3>Notícia 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          molestie laoreet lorem sit amet vehicula.
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="./assets/imagens/oferta01.jpg"
+          alt="img-galeria"
+          style="color: white"
+        />
+        <h3>Notícia 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          molestie laoreet lorem sit amet vehicula.
+        </p>
+      </div>
+      <div class="card">
+        <img
+          src="./assets/imagens/oferta01.jpg"
+          alt="img-galeria"
+          style="color: white"
+        />
+        <h3>Notícia 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          molestie laoreet lorem sit amet vehicula.
+        </p>
+      </div> -->
+    </div>
+  </div>
+</section>
