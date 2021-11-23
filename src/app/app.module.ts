@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -33,6 +34,7 @@ import { FooterComponent } from './pastas/footer/footer.component';
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
     CarouselModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
