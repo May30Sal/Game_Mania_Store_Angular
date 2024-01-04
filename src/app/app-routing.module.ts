@@ -7,7 +7,7 @@ import { GaleriaComponent } from './pastas/galeria/galeria.component';
 import { SobreComponent } from './pastas/sobre/sobre.component';
 
 const routes: Routes = [
-  { path: '**', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'monteSeuPc', component: MonteSeuPcComponent },
   { path: 'galeria', component: GaleriaComponent },
